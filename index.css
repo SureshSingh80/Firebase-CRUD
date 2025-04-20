@@ -1,0 +1,88 @@
+body{
+    background-color: white;
+}
+.form-container
+{
+    
+    padding:2rem;
+
+}
+.form-container .form 
+{
+            width: 200px;
+            background-color: #f0f0f0;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            margin:0 auto;
+            padding:1rem;
+    
+}
+.form-container .form input , select
+{
+    width:90%;
+    margin:0.3rem;
+    padding:0.5rem;
+    border-radius:10px;
+    border:none;
+}
+.form-container .form button
+{
+    width:90%;
+    margin:0.3rem;
+    padding:0.5rem;
+    
+    color:rgb(48, 48, 218);
+    border-radius:10px;
+    border:2px solid rgb(48, 48, 218);
+    font-size:15px;
+}
+.update-btn{
+    color:#28a745;
+    border:2px solid #28a745;
+    border-radius:10px;
+
+}
+.delete-btn{
+    color:#dc3545;
+    border:2px solid #dc3545;
+    border-radius:10px;
+}
+button:hover 
+{
+    cursor: pointer;
+}
+/* loader */
+.loader
+{
+    position: fixed;
+    top: 35%;
+    left: 40%;
+    width: 100%;
+    height: 100%;
+    /* background-color: rgba(0, 0, 0, 0.5); */
+    /* z-index: 9999; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top:2rem;
+    display:none;
+}
+.loader img
+{
+    width:400px;    
+}
+/* toast */
+.toast
+{
+    width:250px;
+    background-color:rgb(196, 187, 187);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    padding:1rem 2rem;
+    font-size:large;
+    position:fixed;
+    border-radius:10px;
+    bottom:2rem;
+    right:2rem;
+    display: none;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}

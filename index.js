@@ -1,6 +1,6 @@
 // basic firebase configuration
 const firebaseConfig = {
-    apiKey: "AIzaSyD87LTezX95NqR2MRslR4OXFwhbZe5tV6Y",
+    apiKey: "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxx",
     authDomain: "first-db-577a2.firebaseapp.com",
     databaseURL: "https://first-db-577a2-default-rtdb.firebaseio.com",
     projectId: "first-db-577a2",
